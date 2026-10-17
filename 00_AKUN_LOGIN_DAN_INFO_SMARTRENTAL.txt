@@ -1,0 +1,35 @@
+================================================================================
+INFORMASI AKUN LOGIN & PANDUAN PENGGUNAAN RESMI
+Aplikasi   : SmartRental (Software Rental Sewa Mobil Lepas Kunci Dan Hitung Tarif Denda)
+SKU        : ID0EBF
+Penerbit   : FokusKonten Official (https://fokuskonten.my.id)
+Bantuan WA : +62 851-8301-1318
+================================================================================
+
+1. CARA MENJALANKAN APLIKASI
+--------------------------------------------------------------------------------
+- Pemasangan Baru  : Dobel-klik 'SETUP_OTOMATIS.bat'
+- Buka Aplikasi    : Dobel-klik 'BUKA_APLIKASI.bat'
+- Akses Beranda    : http://localhost/smartrental/
+
+2. KREDENSIAL AKUN LOGIN RESMI
+--------------------------------------------------------------------------------
+[A] AKUN ADMINISTRATOR / PENGELOLA RENTAL
+   - URL Akses       : http://localhost/smartrental/admin/login.php
+   - Username / User : admin
+   - Password / Sandi: admin
+   - Fitur           : Kelola Armada Mobil, Booking, Hitung Denda, Laporan Sewa
+
+[B] AKUN PELANGGAN / PENYEWA MOBIL (DEMO)
+   - URL Akses       : http://localhost/smartrental/login.php
+   - Username / User : demo  (atau admin)
+   - Password / Sandi: demo  (atau admin)
+   - Fitur           : Lihat Mobil Tersedia, Pesan Sewa Lepas Kunci, Profil
+
+3. KONEKSI BASIS DATA (DATABASE)
+--------------------------------------------------------------------------------
+- Database : mobil
+- Host     : 127.0.0.1 (Port: 3306)
+- User     : root
+- Password : (Kosong/Tanpa password)
+================================================================================

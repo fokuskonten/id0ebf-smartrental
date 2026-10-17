@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-xpander.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="500" height="320" rx="16" fill="url(#bg-xpander.svg)"/>
+  
+  <!-- Subtle Grid & Lighting -->
+  <circle cx="250" cy="110" r="140" fill="#38bdf8" opacity="0.12" filter="blur(40px)"/>
+  <path d="M 0 0 L 500 0 L 500 220 L 0 280 Z" fill="url(#metal)"/>
+
+  <!-- Badge Tipe Mobil -->
+  <rect x="24" y="24" width="130" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2"/>
+  <text x="89" y="42" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" text-anchor="middle">CROSSOVER MPV</text>
+
+  <!-- Brand Badge -->
+  <text x="476" y="42" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="2" text-anchor="end">MITSUBISHI</text>
+
+  <!-- Car Illustration Vector -->
+  <g filter="url(#shadow)" transform="translate(60, 85)">
+    <!-- Shadow beneath car -->
+    <ellipse cx="190" cy="115" rx="180" ry="14" fill="#000000" opacity="0.6"/>
+
+    <!-- Car Body Upper (Roof / Glass) -->
+    <path d="M 60 70 Q 110 20 160 18 L 240 18 Q 280 20 310 70 Z" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+    <path d="M 75 66 Q 115 25 155 24 L 235 24 Q 270 26 295 66 Z" fill="#38bdf8" opacity="0.4"/>
+    <path d="M 175 24 L 175 66" stroke="#1e293b" stroke-width="4"/>
+
+    <!-- Car Body Main -->
+    <path d="M 10 75 Q 15 55 45 55 L 75 55 L 120 22 L 270 22 L 320 55 L 360 62 Q 380 66 380 88 L 380 98 Q 380 102 360 102 L 320 102 Q 315 82 290 82 Q 265 82 260 102 L 130 102 Q 125 82 100 82 Q 75 82 70 102 L 20 102 Q 10 102 10 88 Z" fill="#f8fafc"/>
+    <path d="M 10 75 L 380 75 L 375 85 L 10 85 Z" fill="#38bdf8" opacity="0.85"/>
+
+    <!-- Wheels -->
+    <g transform="translate(95, 100)">
+      <circle cx="0" cy="0" r="24" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="16" fill="#64748b"/>
+      <circle cx="0" cy="0" r="7" fill="#f8fafc"/>
+    </g>
+    <g transform="translate(285, 100)">
+      <circle cx="0" cy="0" r="24" fill="#0f172a"/>
+      <circle cx="0" cy="0" r="16" fill="#64748b"/>
+      <circle cx="0" cy="0" r="7" fill="#f8fafc"/>
+    </g>
+
+    <!-- Headlight & Taillight -->
+    <polygon points="365,70 380,72 376,80 360,78" fill="#fef08a"/>
+    <polygon points="12,70 24,70 22,78 12,76" fill="#ef4444"/>
+  </g>
+
+  <!-- Name & Specs Label -->
+  <text x="250" y="260" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Xpander Ultimate AT</text>
+  <text x="250" y="285" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Transmisi Otomatis • Full AC Dingin • Audio Bluetooth</text>
+</svg>
