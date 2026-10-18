@@ -25,8 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon-128.png">
+    <link rel="manifest" href="../manifest.json">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login Admin — SmartRental</title>
@@ -88,7 +91,6 @@ body {
                         </form>
                     </div>
                     <div class="panel-footer text-center" style="font-size: 12px; background: #f8fafc; color: #64748b;">
-                        Akun Default: <strong>admin</strong> / Password: <strong>admin</strong><br>
                         <span style="font-size: 12px; color: #64748b;">Powered by <a href="https://fokuskonten.my.id" target="_blank" style="color: #475569; font-weight: 600; text-decoration: none;">FokusKonten</a></span>
                     </div>
                 </div>
